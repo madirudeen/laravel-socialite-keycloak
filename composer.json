@@ -1,6 +1,6 @@
 {
-    "name": "socialiteproviders/keycloak",
-    "description": "Keycloak OAuth2 Provider for Laravel Socialite",
+    "name": "madirudeen/laravel-socialite-keycloak",
+    "description": "Keycloak OAuth2 Provider for Laravel Socialite fork",
     "license": "MIT",
     "keywords": [
         "keycloak",
