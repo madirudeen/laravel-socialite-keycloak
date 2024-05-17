@@ -1,7 +1,7 @@
 # Keycloak
 
 ```bash
-composer require socialiteproviders/keycloak
+composer require madirudeen/laravel-socialite-keycloak
 ```
 
 ## Installation & Basic Usage
