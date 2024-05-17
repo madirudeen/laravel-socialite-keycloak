@@ -64,6 +64,9 @@ class Provider extends AbstractProvider
      */
     protected function mapUserToObject(array $user)
     {
+        session(['resource_access' => Arr::get($user, 'resource_access')]);
+        session(['realm_access' => Arr::get($user, 'realm_access')]);
+        
         return (new User())->setRaw($user)->map([
             'id'        => Arr::get($user, 'sub'),
             'nickname'  => Arr::get($user, 'preferred_username'),
